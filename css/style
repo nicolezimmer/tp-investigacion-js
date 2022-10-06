@@ -79,3 +79,8 @@ h2 {
     transition: all ease-out 0.2s;
     padding: 20px;
 }
+
+.preguntas:hover {
+    background-color: rgba(168, 152, 119, 0.521);
+    box-shadow: 6px 6px 0px var(--verde);
+}
