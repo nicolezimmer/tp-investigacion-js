@@ -27,3 +27,9 @@
     position: fixed;
     z-index: -10;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cuerpo;
+}
