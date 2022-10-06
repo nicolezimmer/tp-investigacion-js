@@ -72,3 +72,10 @@ h2 {
 .titulo:hover {
     box-shadow: 6px 6px 0px var(--verdeOscuro);
 }
+
+.preguntas {
+    margin: 10px;
+    border-radius: 25px;
+    transition: all ease-out 0.2s;
+    padding: 20px;
+}
