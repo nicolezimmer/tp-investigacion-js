@@ -418,7 +418,30 @@
                     </div>
                 </div>
             </div>
+            <div class="10 preguntas">
+                <h3>validemos que usted no es un robot...</h3>
+                <p>resuelva el siguiente calculo:</p>
+                <!-- RTA=18 -->
+                <form action="" name="formulario" method="get">
+                    <label for="rta">10+VIII</h4></label>
+                    <input type="text" name="rta" id="rta" placeholder="ingrese respuesta..." required>
+                    <input type="submit" id="btn" name="btn" value="enviar respuesta" required>
+                </form>
+                <script>
+                    const formulario = document.getElementsByName('formulario')[0],
+                        elementos = formulario.elements,
+                        boton = document.getElementById('btn');
+                    const validar = function() {
+                        if (formulario.rta.value != 18) {
+                            alert('usted es un robot sin alma, las respuesta correcta era "18" muy mal')
+                        } else {
+                            alert('respuesta correcta, usted no es un robot definitivamente. todo el equipo de francis web lo felicita!');
+                        }
 
+                    }
+                    formulario.addEventListener("submit", validar)
+                </script>
+            </div>
         </div>
 
     </div>
