@@ -53,6 +53,43 @@
                     </div>
                 </div>
             </div>
+            <div class="3 preguntas">
+                <h3>¿Como es el manejo de las variables, tipos de datos y expresiones regulares en JS?</h3>
+                <p>En js no hace falta declarar el tipo de datos que contienen las variables, ademas de esto tambien tenemos tres tipos de formas de declarar una variable; var, let y const. Aunque no hace falta declarar el tipo de dato de todas maneras existen
+                    dos grandes grupos:</p>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Primitivos: </h5>
+                        <p class="card-text">El tipo de variable mas básico. Si comparamos dos variables primitivas, tomamos el valor de dichas variables para esa comparación y no la referencia.</p>
+                        <p class="card-text">
+                            <ul>
+                                <li>Undefined: variable a la que no se le asigno ningun valor.</li>
+                                <li>Boolean: variable logica que puede tener dos valores: true y false</li>
+                                <li>Number: uno de los dos tipos numericos con los que cuenta js, integra tambien los numeros de punto flotante. Incluye numeros entre -253 y 253 </li>
+                                <li>BigInt: tipo numerico para representar enteros muy grandes, llevan el sufijo “n”</li>
+                                <li>String: representa datos textuales, cadena de caracteres</li>
+                                <li>Symbol: representa un valor unico e inmutable </li>
+                                <li>Null: representa solo un valor: null</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Objetos:</h5>
+                        <p class="card-text"> toda variable que no es primitiva es considerada objeto. Al comparar variables objeto se toma la referencia (identificador que hace referencia a un lugar en la memoria) de dicha variables para la comparación y no el valor que puedan
+                            contener. Algunos tipos objetos son: Array, Set, WeakMap, WeakSet, Date y Function.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Expresiones regulares</h5>
+                        <p class="card-text">Una expresion regular es una secuencia de caracteres que forman un patrón de busqueda, esto es útil para la búsqueda de patrones en cadenas de caracteres. Esto se crea con el constructor RegExp() y dentro de los paréntesis se agregan
+                            las banderas, que son las condiciones de búsqueda. Luego se puede aplicar la búsqueda con el metodo test; el cual devuelve un true si el patron se cumple o un false en caso contrario, o el método exec el cual devuelve un arreglo
+                            con todas las posiciones donde el patrón se cumplio.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
