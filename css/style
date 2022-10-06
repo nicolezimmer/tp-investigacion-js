@@ -20,3 +20,10 @@
     font-family: cuerpo;
     src: url(/fuentes/MADE\ TOMMY\ Light_PERSONAL\ USE.otf);
 }
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -10;
+}
