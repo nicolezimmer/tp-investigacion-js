@@ -68,3 +68,7 @@ h2 {
     transition: all ease-out 0.2s;
     text-align: center;
 }
+
+.titulo:hover {
+    box-shadow: 6px 6px 0px var(--verdeOscuro);
+}
