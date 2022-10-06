@@ -49,3 +49,8 @@ h3 {
     font-family: titulos;
     color: var(--verdeOscuro);
 }
+
+h2 {
+    font-family: titulos2;
+    color: var(--verdeOscuro);
+}
