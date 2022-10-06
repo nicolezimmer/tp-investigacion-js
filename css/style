@@ -38,3 +38,8 @@
     padding-left: 15%;
     padding-right: 15%;
 }
+
+body {
+    background-color: var(--gris);
+    margin-bottom: 100px;
+}
