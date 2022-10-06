@@ -1,0 +1,7 @@
+:root {
+    --marronClaro: rgb(168, 152, 119);
+    --marronMedio: rgb(143, 131, 105);
+    --gris: rgb(104, 101, 84);
+    --verde: rgb(67, 71, 56);
+    --verdeOscuro: rgb(36, 39, 28);
+}
