@@ -20,7 +20,6 @@
     font-family: cuerpo;
     src: url(/fuentes/MADE\ TOMMY\ Light_PERSONAL\ USE.otf);
 }
-
 #particles-js {
     height: 100%;
     width: 100%;
@@ -33,13 +32,13 @@
     padding: 0px;
     font-family: cuerpo;
 }
-
-.contenedor {
+.contenedor{
     padding-left: 15%;
     padding-right: 15%;
 }
 
 body {
+
     background-color: var(--gris);
     margin-bottom: 100px;
 }
@@ -83,6 +82,13 @@ h2 {
 .preguntas:hover {
     background-color: rgba(168, 152, 119, 0.521);
     box-shadow: 6px 6px 0px var(--verde);
+}
+:root {
+    --marronClaro: rgb(168, 152, 119);
+    --marronMedio: rgb(143, 131, 105);
+    --gris: rgb(104, 101, 84);
+    --verde: rgb(67, 71, 56);
+    --verdeOscuro: rgb(36, 39, 28);
 }
 
 .navbar {
