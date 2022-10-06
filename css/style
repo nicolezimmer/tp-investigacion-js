@@ -103,3 +103,8 @@ h2 {
     font-family: titulos2;
     color: var(--marronClaro);
 }
+
+.card-text {
+    font-family: cuerpo;
+    color: var(--marronClaro);
+}
