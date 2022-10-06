@@ -5,3 +5,18 @@
     --verde: rgb(67, 71, 56);
     --verdeOscuro: rgb(36, 39, 28);
 }
+
+@font-face {
+    font-family: titulos;
+    src: url(/fuentes/Almost\ Japanese\ Comic.ttf);
+}
+
+@font-face {
+    font-family: titulos2;
+    src: url(/fuentes/Linebeam.ttf)
+}
+
+@font-face {
+    font-family: cuerpo;
+    src: url(/fuentes/MADE\ TOMMY\ Light_PERSONAL\ USE.otf);
+}
