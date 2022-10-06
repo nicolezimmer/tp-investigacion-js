@@ -60,3 +60,11 @@ h2 {
     font-family: titulos2;
     text-align: center;
 }
+
+.titulo {
+    background-color: var(--verde);
+    margin: 10px;
+    border-radius: 25px;
+    transition: all ease-out 0.2s;
+    text-align: center;
+}
