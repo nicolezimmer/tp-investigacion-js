@@ -88,3 +88,13 @@ h2 {
 .navbar {
     background-color: var(--verde);
 }
+
+.card {
+    background-color: var(--verde);
+    border: solid 4px var(--verde);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    margin-top: 10px;
+    margin: 20px;
+}
