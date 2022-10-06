@@ -54,3 +54,9 @@ h2 {
     font-family: titulos2;
     color: var(--verdeOscuro);
 }
+
+.tituloNav {
+    color: var(--marronClaro);
+    font-family: titulos2;
+    text-align: center;
+}
