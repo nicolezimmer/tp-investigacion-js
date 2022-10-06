@@ -108,3 +108,8 @@ h2 {
     font-family: cuerpo;
     color: var(--marronClaro);
 }
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 10px 10px 0px var(--verdeOscuro);
+}
