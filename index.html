@@ -251,6 +251,174 @@
                 <p>Un objeto map cumple una función muy similar a la de los objetos normales, la cual es almacenar pares clave-valor. Aunque cuenta con algunas diferencias. En los objetos normales las claves solo pueden ser de tipo string o symbol; en el
                     caso de map pueden ser de cualquier tipo, con map podemos conocer su tamaño utilizando la propiedad size, y un map es iterable sin necesidad de las claves como si se necesitan con los objetos normales.</p>
             </div>
+
+            <div class="9 preguntas">
+                <h3>¿Cuáles son todos los eventos que trabaja JS?</h3>
+                <p>Los eventos de js refieren a los tipos de acciones que pueden desencadenar un evento de nuestra eleccion</p>
+                <p>Hay muchos tipos de acciones, estos son la mayoria de eventos en js:</p>
+
+                <div class="container p-5">
+                    <div class="row">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con el mouse</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>onclick:Click sobre un elemento</li>
+                                        <li>ondblclick: Doble click sobre un elemento</li>
+                                        <li>onmousedown:Se pulsa un botón del ratón sobre un elemento
+
+                                        </li>
+                                        <li>onmouseenter:El puntero del mouse entra en el area de un elemento</li>
+                                        <li>onmouseleave:El puntero del mouse sale del area de un elemento</li>
+                                        <li>onmousemove:El puntero del mouse se esta moviendo sobre el area de un elemento</li>
+                                        <li>onmouseover:El puntero del mouse se situa encima del area de un elemento</li>
+                                        <li>onmouseout:El puntero del mouse sale fuera del area del elemento o fuera de uno de sus hijos</li>
+                                        <li>onmouseup:Un boton del mouse se libera estando sobre un elemento</li>
+                                        <li>contextmenu:Se pulsa el boton derecho del mouse</li>
+                                    </ul>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con el teclado</h5>
+                                <p class="card-text">
+
+                                    <ul>
+                                        <li>onkeydown: El usuario tiene pulsada una tecla (para elementos de formulario y body) </li>
+                                        <li>onkeypress: El usuario pulsa una tecla (momento justo en que la pulsa) (para elementos de formulario y body) </li>
+                                        <li>onkeyup: El usuario libera una tecla que tenía pulsada (para elementos de formulario y body) </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con formularios</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>onfocus: Un elemento del formulario toma el foco</li>
+                                        <li>onblur: Un elemento del formulario pierde el foco</li>
+                                        <li>onchange: Un elemento del formulario cambia </li>
+                                        <li>onselect: El usuario selecciona el texto de un elemento input o textarea</li>
+                                        <li>onsubmit: Se pulsa el boton de envio del formulario (antes del envio)</li>
+                                        <li>onreset: Se pulsa el boton reset del formulario</li>
+                                    </ul>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con ventanas o frames</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>onload: Se ha completado la carga de la ventana</li>
+                                        <li>onunload: El usuario ha cerrado la ventana </li>
+                                        <li>onresize: El usuario ha cambiado el tamaño de la ventana</li>
+                                    </ul>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con animaciones y transiciones</h5>
+                                <p class="card-text">
+
+                                    <ul>
+                                        <li>animationend, animationiteration, animationstart, beginEvent, endEvent, repeatEvent, transitionend</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con la bateria y carga de la bateria</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>chargingchange, chargingtimechange, dischargingtimechange, levelchange</li>
+                                    </ul>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con llamadas tipo telefonia</h5>
+                                <p class="card-text">
+
+                                    <ul>
+                                        <li>alerting, busy, callschanged, connected, connecting, dialing, disconnected, disconnecting, error, held, holding, incoming, resuming, statechange</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con cambios en el DOM</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>DOMAttrModified, DOMCharacterDataModified, DOMContentLoaded, DOMElementNameChanged, DOMNodeInserted, DOMNodeInsertedIntoDocument, DOMNodeRemoved, DOMNodeRemovedFromDocument, DOMSubtreeModified</li>
+                                    </ul>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con arrastre de elementos (drag and drop)</h5>
+                                <p class="card-text">
+
+                                    <ul>
+                                        <li>drag, dragend, dragenter, dragleave, dragover, dragstart, drop </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con video y audio</h5>
+                                <p class="card-text">
+
+                                    <ul>
+                                        <li>audioprocess, canplay, canplaythrough, durationchange, emptied, ended, ended, loadeddata, loadedmetadata, pause, play, playing, ratechange, seeked, seeking, stalled, suspend, timeupdate, volumechange, waiting, complete
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Relacionados con la conexion a internet</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>disabled, enabled, offline, online, statuschange, connectionInfoUpdate
+
+                                        </li>
+                                    </ul>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Otros tipos de eventos</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>relacionados con la pulsacion sobre pantallas, uso de copy and paste, impresion con impresoras, etc.</li>
+                                    </ul>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>
