@@ -84,3 +84,7 @@ h2 {
     background-color: rgba(168, 152, 119, 0.521);
     box-shadow: 6px 6px 0px var(--verde);
 }
+
+.navbar {
+    background-color: var(--verde);
+}
